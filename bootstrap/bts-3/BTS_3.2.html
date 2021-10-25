@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BTS_3.2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+  body{
+    background-color:rgb(192, 203, 207);
+  }
+</style>
+<body>
+<br>
+<div class="container mt-3">
+    <h2>ESERCIZIO BTS_3.2</h2>
+  <p></p> 
+</div>
+  
+<br>
+<div class="row">
+    <div class="col-xl-12 col-lg-6" style="background-color:lavender;  font-size: large;">&nbsp;1) Cerca 3 immagini sul WEB e impostale con le seguenti caratteristiche</div>
+    <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp;&nbsp; a) Fluttuante a destra in un cerchio</div>
+    <div class="container">
+      <br><img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" width="150px" class="rounded-circle float-right"><br><br>
+      <br><br><br><br><br>
+    </div>
+    
+    <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush;  font-size: large;">&nbsp; b) Centrata in un thumbnail</div>
+    <div class="container">
+      <br><img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" width="254" height="186"><br>
+      <br>
+    </div>
+    <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; c) Fluttuante a sinistra con bordi arrotondati</div>
+    <div class="container">
+      <br><img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" class="rounded float-left" alt="Cinque Terre" width="254" height="250">
+    </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-xl-12 col-lg-6" style="background-color:lavender;  font-size: large;">&nbsp;2) Crea un Jumbtron che Preceda le immagini e ne preannunci il contenuto (lo sfondo del Jubtron deve essere di tipo bg-info)</div>
+</div><br>
+
+<div class="jumbotron bg-info">
+  <h1>IMMAGINI SUL WEB</h1>
+  <p>preannunciare il contenuto..</p>
+  <div class="container">
+    <img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" width="150px" class="rounded-circle float-right">
+    <img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" class="rounded float-left" alt="Cinque Terre" style="width:20%">
+    <img src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/a/ad/Eft_prealpha_7.jpg" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" style="width:20%"> 
+    <br>
+  </div>
+</div>
+<div class="container">
+  <p>1) La classe <code>.rounded-circle</code> modella l'immagine in un cerchio.</p>      
+  <p>2)...</p>
+  <p>3)...</p>        
+</div>
+
+<br>
+<div class="row">
+  <div class="col-xl-12 col-lg-6" style="background-color:lavender;  font-size: large;">&nbsp;3) Crea un alert con le seguente caratteristiche dopo le immagini</div>
+  <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; a) Sfondo: Success</div>
+  <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; b) Contiene un link che riporta all’inizio della pagina</div>
+  <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; c) Fai in modo che l’Alert possa essere chiuso(La chiusura usa l’effetto di fade)</div>
+</div>
+<br>
+<div class="container">
+  <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>CIAO!</strong> Crea un alert con le seguente caratteristiche dopo le immagini.
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+      <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+  </a>
+  </div>
+
+</div>
+<br>
+<div class="row">
+  <div class="col-xl-12 col-lg-6" style="background-color:lavender;  font-size: large;">&nbsp;4) Crea dei bottoni con le seguenti caratteristiche</div>
+  <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; a) Button Outline</div>
+  <div class="col-xl-12 col-lg-6" style="background-color:lavenderblush; font-size: large;">&nbsp; b) Block level button</div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <button type="button" class="btn btn-outline-dark btn-lg">Dark</button>
+      <br><br><button type="button" class="btn btn-outline-dark btn-block">Button 1</button>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="row">
+  <div class="col-xl-12 col-lg-6" style="background-color:lavender;  font-size: large;">&nbsp;5) Innesta un DropDownMenu in un gruppo di bottoni</div>
+</div>
+<br>
+<div class="container">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary " >Tecnologia</button>
+    <button type="button" class="btn btn-primary " >Informatica</button>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Diritto</button>
+      <div class="dropdown-menu">
+        <button type="button" class="dropdown-item" href="#">Legge</button>
+        <button type="button"class="dropdown-item" href="#">Economia</button>
+      </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+
+</body>
+</html>

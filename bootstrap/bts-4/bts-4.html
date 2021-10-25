@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4.1 - 4.2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 class="bg-primary">la mia prima pagina in Bootstrab</h1>
+  <p class="bg-secondary">la pagina è come un molliccio, a seocnda di chi ha davanti cambia forma! (se non sai cos'è un molliccio hai 2 possibilità: 1) vederti Harry Potter 3 e 2) vederti Harry Potter 3)</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link bg-secondary" href="#">Link a della roba</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bg-secondary"  href="#">Link a altra roba</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link bg-secondary" href="#">Link <-- </a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<ul class="list-group">
+  <li class="list-group-item">personaggi</li>
+  <li class="list-group-item">classe </li>
+  <li class="list-group-item">descrizione</li>
+  </ul>
+<body>
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="https://i.pinimg.com/originals/ba/f9/4c/baf94cf10c9379d329ab8f2519a6c0c9.jpg" width="250px" height="350px" class="img-fluid" alt="Responsive image">
+      <div class="card-body">
+        <h5 class="card-title bg-success">Card title</h5>
+        <p class="card-text bg-danger">ottime cure e capacità difensiva e offensiva ottipar supportare i Tank della squadra.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5be8e7a5-e582-4823-87c2-12ea63199886/d9esgfe-b6382729-4754-4e76-a2a2-29ed3c9b87df.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi81YmU4ZTdhNS1lNTgyLTQ4MjMtODdjMi0xMmVhNjMxOTk4ODYvZDllc2dmZS1iNjM4MjcyOS00NzU0LTRlNzYtYTJhMi0yOWVkM2M5Yjg3ZGYuanBnIn1dXX0.Jz6m_FtpXANElyimgCAMDNvKyzICGzRyn_ryjU5l5nM" class="img-fluid" alt="Responsive image" width="250px" height="350px">
+      <div class="card-body">
+        <h5 class="card-title bg-success">crocaito</h5>
+        <p class="bg-danger">ottimo Tank, ottimi danni e alta protezione e grazie al suo buff con il colpo "giustizzia divina" è ottimo nelle rovine contro gli empi.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ce9dc162-627a-4721-a05c-7b56ce074bfb/d75jqqs-79b2b812-5724-41a9-9ceb-c42463bd4815.jpg/v1/fill/w_768,h_1041,q_75,strp/darkest_dungeon__hunter_by_t_biddy-d75jqqs.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jZTlkYzE2Mi02MjdhLTQ3MjEtYTA1Yy03YjU2Y2UwNzRiZmIvZDc1anFxcy03OWIyYjgxMi01NzI0LTQxYTktOWNlYi1jNDI0NjNiZDQ4MTUuanBnIiwid2lkdGgiOiI8PTc2OCIsImhlaWdodCI6Ijw9MTA0MSJ9XV19.CsCFbJgBmLsBqEjV3xzyWWowhmbRYabaGBqWZvAf63I" class="img-fluid" alt="Responsive image" width="450px" height="350px">
+      <div class="card-body">
+        <h5 class="card-title bg-success">Cacciatore di Targlie</h5>
+        <p class="bg-danger">ottimo Supporto, ottimi danni e alta schivata grazie alle sue abilità riesce a marchiare i bersagli e a portare scompiglio nella formazione nemica recuperando stres eliminando nemico dopo nemico e le sue abilità da disabilitatore di trappole sono ottime.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary " >Crociato</button>
+      <button type="button" class="btn btn-primary " >Vestale</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">supporto</button>
+        <div class="dropdown-menu">
+          <button type="button" class="dropdown-item" href="#">Cacciatore di Taglie</button>
+          <button type="button"class="dropdown-item" href="#">Medico della Peste</button>
+        </div>
+      </div>
+  </div>
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <div class="container">
+      <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong></strong>
+        <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+          <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+      </a>
+      </div>
+    <p>Footer</p>
+  </div>
+</body>
